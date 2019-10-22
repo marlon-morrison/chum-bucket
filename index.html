@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="media/chum-logo.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="#link">news</a></li>
+                        <li><a href="#link">about us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-responsive" src="media/menu.png" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <form action="#" onsubmit="tipcalc()">
+                        <div class="order">
+                            <p>chum burger</p></td>
+                            <input type="number" placeholder="0" id="chumB" min="0">
+                            <p>chum fries</p></td>
+                            <input type="number" placeholder="0" id="chumF" min="0">
+                            <p>chum shake</p></td>
+                            <input type="number" placeholder="0" id="chumS" min="0">
+                            <p>chum on a stick</p> </td>
+                            <input type="number" placeholder="0" id="chumST" min="0">
+                            <p>chumbalaya</p></td>
+                            <input type="number" placeholder="0" id="chumLay" min="0">
+                            <p>chum chili</p></td>
+                            <input type="number" placeholder="0" id="chumChil" min="0">
+                            <p>chum pie</p></td>
+                            <input type="number" placeholder="0" id="chumPie" min="0">
+                        </div>
+                        <div class="tip">
+                            <h2>please tip us before submiting your order</h2>
+                            <p>
+                                <input type="radio" name="rsvp" value=".15">
+                                15%
+                                <input type="radio" name="rsvp" value=".18">
+                                18%
+                                <input type="radio" name="rsvp" value=".20">
+                                20%
+                                <input type="radio" name="rsvp" value=".25" checked>
+                                25%
+                            </p> 
+                            <h3>your total will be:<span id="total"></span></h3>
+                        </div>
+                        <input type="submit" name="calc" value="calculate">
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row support center">
+                <div class="col-sm-6 col-xs-6 col-lg-3">
+                    <div class="border">
+                        <img class="img-responsive" src="media/icon-recycle.png" alt="">
+                    </div>
+                    <p><span>amazing</span><br> support</p>
+                </div>
+                <div class="col-sm-6 col-xs-6 col-lg-3">
+                    <div class="border">
+                        <img class="img-responsive" src="media/icon-phone.png" alt="">
+                    </div>
+                    <p><span>24 hour</span><br> availability</p>
+                </div>
+                <div class="col-sm-6 col-xs-6 col-lg-3">
+                    <div class="border">
+                        <img class="img-responsive" src="media/icon-cog.png" alt="">
+                    </div>
+                    <p><span>web</span><br> design</p>
+                </div>
+                <div class="col-sm-6 col-xs-6 col-lg-3">
+                    <div class="border">
+                        <img class="img-responsive" src="media/icon-mobile (1).png" alt="">
+                    </div>
+                    <p><span>mobile</span><br> development</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="info">
+                <div class="row">
+                    <div class="col-sm-6  col-lg-3 social ">
+                        <h2>little about us</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem dolorem reprehenderit cum, fugit magni reiciendis.</p>
+                        <h2>follow us</h2>
+                        <ul>
+                            <li><a href=""><img src="media/icons-small-fb.gif" alt=""></a></li>
+                            <li><a href=""><img src="media/icons-small-tw.gif" alt=""></a></li>
+                            <li><a href=""><img src="media/icons-small-rss.gif" alt=""></a></li>
+                            <li><a href=""><img src="media/icons-small-vimeo.gif" alt=""></a></li>
+                            <li><a href=""><img src="media/icons-small-dribble.gif" alt=""></a></li>
+                            <li><a href=""><img src="media/icons-small-blogger.gif" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6  col-lg-3 contact">
+                        <h2>contact us</h2>
+                        <ul>
+                            <li><img src="media/icon-small-envelope.gif" alt="">  <a href="">info@premiumcoding.com</a></li>
+                            <li><img src="media/icon-small-phone.gif" alt="">  <a href="">800 756 156</a></li>
+                            <li><img src="media/icon-small-mobile.gif" alt="">  <a href="">+386408007561</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6  col-lg-3  hidden-sm hidden-xs newsletter">
+                        <h2>sign to newsletter</h2>
+                        <form action="#link">
+                            <input type="text" placeholder="name" name="name" required>
+                            <input type="text" placeholder="email" name="email" required><br>
+                            <button type="submit">subscribe</button>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <a href="index.html">home</a>
+                    <a href="">portfolio</a>
+                    <a href="">sitemap</a>
+                    <a href="">contact</a>
+                </div>
+                <div class="col-sm-4 rights">
+                    <p>@2013 all rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

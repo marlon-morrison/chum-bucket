@@ -1,0 +1,181 @@
+body {
+    background-image: url("/media/wall-chum (1).jpg");
+    background-repeat: repeat;
+}
+header img {
+    margin-top: 20px;
+}
+header ul {
+    padding-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+header li {
+    text-align: center;
+    display: inline;
+    padding-right: 20px;
+    font-size: 33px;
+    font-weight: 300;
+}
+header a {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.hero {
+    background: #444;
+    padding-top: 20px;
+    position: relative;
+}
+.hero h2 {
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero h3 {
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero p {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+}
+.hero input {
+    margin-bottom: 10px;
+}
+.tip {
+    position: absolute;
+    right: 45px;
+    top: 0;
+    left: 210px;
+    background: lightsteelblue;
+    border: 2px solid darkred;
+    padding: 40px;
+}
+main img {
+    text-align: center;
+}
+main h1 {
+    text-transform: uppercase;
+}
+main h2 {
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+main h3 {
+    text-transform: uppercase;
+}
+main {
+    padding-bottom: 50px;
+}
+.center {
+    text-align: center;
+}
+.center img {
+    border-radius: 50%;
+    border: 20px solid #fff;
+    padding: 20px;
+    background: #444;
+    margin: auto;
+}
+.border {
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    margin: 47px;
+    margin-bottom: 0;
+}
+@media (max-width: 435px) {
+    .border {
+        margin:0;
+        margin-bottom: 0;
+    
+    }
+ }
+ @media (min-width: 735px) and (max-width:989px) {
+    .border {
+        margin: 0 93px 0 99px;
+    }
+ }
+ @media (min-width: 992px) and (max-width:1199px) {
+    .border {
+        margin: 0 148px 0 147px;
+    }
+}
+.support span{
+    font-size: 40px;
+}
+.support p {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.search form {
+    margin-top: 20px;
+    padding: 20px;
+} 
+footer {
+    background: #444;
+    color: #fff;
+}
+footer h2{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+footer ul {
+    padding-left: 0;
+    text-decoration: none;
+}
+footer li {
+   list-style: none;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.archives li{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-transform: capitalize;
+}
+.dashed {
+    border-bottom: 1px dashed #bbb;
+}
+.contact li{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.social li {
+    display: inline;
+}
+.newsletter input {
+    margin-bottom: 13px;
+    padding-right: 40px;
+    background: #eee;
+}
+.newsletter button{
+    margin-left: 131px;
+    background: #444;
+    padding: 10px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.copyright {
+    background: #000;
+    color: #fff;
+}
+.copyright a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.copyright a:hover {
+    text-decoration: none;
+    color: #fff;
+}
