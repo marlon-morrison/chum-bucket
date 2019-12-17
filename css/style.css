@@ -1,4 +1,5 @@
 body {
+    background: lightblue;
     background: url("/media/wall-chum.png");
     background-repeat: repeat;
 }
