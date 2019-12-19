@@ -1,6 +1,6 @@
 body {
-    background: lightblue;
     background: url("/media/wall-chum.png");
+    background: lightblue;
     background-repeat: repeat;
 }
 header img {
